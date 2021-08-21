@@ -8,7 +8,7 @@ USE `dc_tax_payer`;
 DROP TABLE IF EXISTS `taxpayer`;
 
 CREATE TABLE `taxpayer` (
-  `ppsn_id` int(11) NOT NULL AUTO_INCREMENT,
+  `ppsn_id` nvarchar(11) NOT NULL AUTO_INCREMENT,
   `first_name` nvarchar(45) NOT NULL,
   `last_name` nvarchar(45) NOT NULL,
   `date_of_birth` date NOT NULL,
